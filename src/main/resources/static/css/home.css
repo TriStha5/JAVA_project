@@ -1,0 +1,62 @@
+body{
+	font-family: 'Unbounded', sans-serif;
+    overflow-x: hidden;
+}
+.navbar-nav a{
+    font-size: 16px;
+}
+.navbar-nav a:hover{
+    color: #0193DE;
+}
+.btn2:hover{
+    box-shadow: 0px 0px 0px 2.5px 	rgba(0, 0, 0, 0.3) inset, 0px 0px 0px 3px #0193DE;
+}
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: white;
+}
+.hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    color: #0193DE;
+    background-color: #0193DE;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+input {
+    text-align: center;
+}
+::-webkit-input-placeholder {
+    text-align: center;
+}
+:-moz-placeholder {
+    text-align: center;
+}
+.bg-img{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    filter: brightness(0.2);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.container{
+    margin-top:200px;
+}
+.white{
+    color: white;
+}

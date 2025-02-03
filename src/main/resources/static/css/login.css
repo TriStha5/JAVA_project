@@ -1,0 +1,92 @@
+body{
+    font-family: 'Unbounded', sans-serif;
+}
+#box h1{
+    text-align: center;
+    padding-top: 15px;
+    margin: 10px;
+    color: #0193DE;
+}
+#box form{
+    width: 300px;
+    margin-left: 20px;
+}
+#box form label{
+    text-align: center;
+    display: flex;
+    margin-top: 20px;	
+    font-size: 16px;
+}
+#box form input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+#button{
+    margin-top: 20px;
+    margin-left: 100px;
+    color: white;
+    width: 100px !important;
+    background-color: #0193DE;
+}
+#box p{
+    margin-bottom: 0 !important;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 13px;
+}
+#box .para-2{
+    text-align: center;
+    color: black;
+    margin-top: -10px;
+    font-size: 15px;
+}
+#box .para-2 a{
+    color: #0193DE;
+}
+#box .login-box{
+    width: 340px;
+    height: 350px;
+    float: right;
+    margin-right: 50px;
+    margin-top: 150px;
+    background-color: white;
+    border-radius: 20px;
+    opacity: 0.9;
+}
+span{
+    position: absolute;
+    font-size: 14px;
+    color: red;
+}
+span i{
+    color: seagreen;
+}
+#validationCustom01{
+    border: 1px solid gray;
+}
+#validationCustom02{
+    border: 1px solid gray;
+}
+#exampleInputEmail1{
+    border: 1px solid gray;
+}
+#floatingTextarea2{
+    border: 1px solid gray;
+}
+.btn2:hover{
+    box-shadow: 0px 0px 0px 2.5px white inset, 0px 0px 0px 3px #0193DE;
+}
+.bg-img{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    filter: brightness(0.2);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
